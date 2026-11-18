@@ -1,0 +1,584 @@
+{
+  "generated_at": "2026-11-18T10:52:52.085Z",
+  "profile": {
+    "name": "Ocean Mallik",
+    "login": "oceanmallik",
+    "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+    "html_url": "https://github.com/oceanmallik",
+    "public_repos": 26,
+    "followers": 7,
+    "following": 12
+  },
+  "repos": [
+    {
+      "id": 1462668238,
+      "name": "github-data-cache",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-11-18T10:51:36Z",
+      "updated_at": "2026-11-18T10:51:10Z",
+      "html_url": "https://github.com/oceanmallik/github-data-cache",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1102440028,
+      "name": "myWebsite",
+      "description": "A Portfolio Website",
+      "language": "HTML",
+      "fork": false,
+      "stargazers_count": 5,
+      "forks_count": 0,
+      "pushed_at": "2026-11-18T10:48:21Z",
+      "updated_at": "2026-11-13T08:24:40Z",
+      "html_url": "https://github.com/oceanmallik/myWebsite",
+      "homepage": "https://www.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1186228312,
+      "name": "oceanmallik",
+      "description": "Introduction of @oceanmallik",
+      "language": null,
+      "fork": false,
+      "stargazers_count": 4,
+      "forks_count": 1,
+      "pushed_at": "2026-11-18T08:37:26Z",
+      "updated_at": "2026-11-13T08:24:39Z",
+      "html_url": "https://github.com/oceanmallik/oceanmallik",
+      "homepage": "https://www.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "github-actions[bot]",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "profile_url": "https://github.com/apps/github-actions"
+        },
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        },
+        {
+          "username": "rivermallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/269083221?v=4",
+          "profile_url": "https://github.com/rivermallik"
+        }
+      ]
+    },
+    {
+      "id": 1456289041,
+      "name": "TeamArtemisSubmission",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "pushed_at": "2026-11-13T11:32:00Z",
+      "updated_at": "2026-11-13T12:15:42Z",
+      "html_url": "https://github.com/oceanmallik/TeamArtemisSubmission",
+      "homepage": "https://teamartemis26.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1192550866,
+      "name": "blogWebsite",
+      "description": "A Blogging Website",
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "pushed_at": "2026-11-09T11:41:29Z",
+      "updated_at": "2026-11-13T08:24:42Z",
+      "html_url": "https://github.com/oceanmallik/blogWebsite",
+      "homepage": "https://www.bartawire.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1422499145,
+      "name": "devCard",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-11-08T10:26:23Z",
+      "updated_at": "2026-11-08T10:26:26Z",
+      "html_url": "https://github.com/oceanmallik/devCard",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1275508214,
+      "name": "pocket",
+      "description": "A private pocket for easy to access codes",
+      "language": "C",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-11-05T03:41:38Z",
+      "updated_at": "2026-11-05T03:41:42Z",
+      "html_url": "https://github.com/oceanmallik/pocket",
+      "homepage": "http://pocket.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        },
+        {
+          "username": "github-actions[bot]",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "profile_url": "https://github.com/apps/github-actions"
+        }
+      ]
+    },
+    {
+      "id": 1195371437,
+      "name": "myLink",
+      "description": "A custom link share page",
+      "language": "CSS",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-10-29T08:30:43Z",
+      "updated_at": "2026-10-29T08:30:46Z",
+      "html_url": "https://github.com/oceanmallik/myLink",
+      "homepage": "https://link.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1430399486,
+      "name": "assignmentPrank",
+      "description": "A website to prank your friends",
+      "language": "HTML",
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-10-23T01:24:46Z",
+      "updated_at": "2026-10-23T01:24:50Z",
+      "html_url": "https://github.com/oceanmallik/assignmentPrank",
+      "homepage": "https://assignment.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1405463734,
+      "name": "primeNumberC",
+      "description": null,
+      "language": "C",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-10-10T02:40:49Z",
+      "updated_at": "2026-10-10T02:40:53Z",
+      "html_url": "https://github.com/oceanmallik/primeNumberC",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1407134082,
+      "name": "devfest-25335087",
+      "description": "DevFest Vibe Coding",
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-10-07T12:30:25Z",
+      "updated_at": "2026-10-07T12:31:07Z",
+      "html_url": "https://github.com/oceanmallik/devfest-25335087",
+      "homepage": "https://aidevfest26.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1256366721,
+      "name": "DIUNotesBuddyApp",
+      "description": "An External Application to support DIUNotesBuddy Website",
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-09-30T15:33:50Z",
+      "updated_at": "2026-09-30T15:33:55Z",
+      "html_url": "https://github.com/oceanmallik/DIUNotesBuddyApp",
+      "homepage": "https://diunotesbuddy.live/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1398366649,
+      "name": "Test-Repo-1",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-09-30T15:20:25Z",
+      "updated_at": "2026-09-30T15:20:33Z",
+      "html_url": "https://github.com/oceanmallik/Test-Repo-1",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "shahdat-sajib",
+          "avatar_url": "https://avatars.githubusercontent.com/u/59218362?v=4",
+          "profile_url": "https://github.com/shahdat-sajib"
+        },
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1235780963,
+      "name": "bestFriend",
+      "description": null,
+      "language": "CSS",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-09-23T11:31:32Z",
+      "updated_at": "2026-09-23T11:31:36Z",
+      "html_url": "https://github.com/oceanmallik/bestFriend",
+      "homepage": "https://nimu.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1261823748,
+      "name": "DIUNotesBuddyDATABASE",
+      "description": "Connected with supabase",
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-08-25T10:33:04Z",
+      "updated_at": "2026-08-25T10:34:45Z",
+      "html_url": "https://github.com/oceanmallik/DIUNotesBuddyDATABASE",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1329303773,
+      "name": "Number-Guessing-Game",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-08-10T01:02:59Z",
+      "updated_at": "2026-11-08T07:09:39Z",
+      "html_url": "https://github.com/oceanmallik/Number-Guessing-Game",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        },
+        {
+          "username": "moT01",
+          "avatar_url": "https://avatars.githubusercontent.com/u/20648924?v=4",
+          "profile_url": "https://github.com/moT01"
+        }
+      ]
+    },
+    {
+      "id": 1328830125,
+      "name": "Periodic-Table-Database",
+      "description": null,
+      "language": "Shell",
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-08-09T13:40:23Z",
+      "updated_at": "2026-11-08T07:10:03Z",
+      "html_url": "https://github.com/oceanmallik/Periodic-Table-Database",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1328719527,
+      "name": "Salon-Appointment-Scheduler",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-08-09T11:22:04Z",
+      "updated_at": "2026-11-08T07:10:25Z",
+      "html_url": "https://github.com/oceanmallik/Salon-Appointment-Scheduler",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        },
+        {
+          "username": "moT01",
+          "avatar_url": "https://avatars.githubusercontent.com/u/20648924?v=4",
+          "profile_url": "https://github.com/moT01"
+        }
+      ]
+    },
+    {
+      "id": 1328671366,
+      "name": "World-Cup-Database",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-08-09T10:11:43Z",
+      "updated_at": "2026-11-08T07:10:43Z",
+      "html_url": "https://github.com/oceanmallik/World-Cup-Database",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        },
+        {
+          "username": "moT01",
+          "avatar_url": "https://avatars.githubusercontent.com/u/20648924?v=4",
+          "profile_url": "https://github.com/moT01"
+        }
+      ]
+    },
+    {
+      "id": 1322494630,
+      "name": "Celestial-Bodies-Database",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-08-04T04:14:42Z",
+      "updated_at": "2026-11-08T07:11:04Z",
+      "html_url": "https://github.com/oceanmallik/Celestial-Bodies-Database",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        },
+        {
+          "username": "moT01",
+          "avatar_url": "https://avatars.githubusercontent.com/u/20648924?v=4",
+          "profile_url": "https://github.com/moT01"
+        }
+      ]
+    },
+    {
+      "id": 1246831925,
+      "name": "OneDropOneLife",
+      "description": "Connecting Blood Donors to save lives, one drop at a time. ",
+      "language": "CSS",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-06-14T07:57:15Z",
+      "updated_at": "2026-06-14T07:57:18Z",
+      "html_url": "https://github.com/oceanmallik/OneDropOneLife",
+      "homepage": "https://blood.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        },
+        {
+          "username": "github-actions[bot]",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "profile_url": "https://github.com/apps/github-actions"
+        }
+      ]
+    },
+    {
+      "id": 1199517963,
+      "name": "gameWeb",
+      "description": "A website that hosts my game development stuff",
+      "language": "HTML",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-05-14T22:41:16Z",
+      "updated_at": "2026-05-14T22:44:16Z",
+      "html_url": "https://github.com/oceanmallik/gameWeb",
+      "homepage": "https://remin.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        },
+        {
+          "username": "Copilot",
+          "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+          "profile_url": "https://github.com/apps/copilot-swe-agent"
+        }
+      ]
+    },
+    {
+      "id": 1234836416,
+      "name": "birthday",
+      "description": null,
+      "language": "CSS",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-05-11T01:25:08Z",
+      "updated_at": "2026-05-14T22:46:37Z",
+      "html_url": "https://github.com/oceanmallik/birthday",
+      "homepage": "https://birthday.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1183580050,
+      "name": "polyglotCalculator",
+      "description": "Making a simple terminal based app that works using multiple languages. (polyglot programming) [Only rust code is fully AI generated, cause I don't know how to code on RUST]",
+      "language": "C++",
+      "fork": false,
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "pushed_at": "2026-03-26T05:28:38Z",
+      "updated_at": "2026-03-26T15:47:00Z",
+      "html_url": "https://github.com/oceanmallik/polyglotCalculator",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1150505774,
+      "name": "memeCalculator",
+      "description": "Making a fun meme calculator on godot game engine. Note: No generative AI was used during development. ",
+      "language": "C#",
+      "fork": false,
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "pushed_at": "2026-03-23T04:33:09Z",
+      "updated_at": "2026-03-26T15:46:45Z",
+      "html_url": "https://github.com/oceanmallik/memeCalculator",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1186816319,
+      "name": "githubNotificationTracker",
+      "description": "A python script to track github notifications. ",
+      "language": "Python",
+      "fork": false,
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "pushed_at": "2026-03-21T03:48:14Z",
+      "updated_at": "2026-10-09T16:47:36Z",
+      "html_url": "https://github.com/oceanmallik/githubNotificationTracker",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    }
+  ]
+}
