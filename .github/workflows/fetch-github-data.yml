@@ -23,7 +23,7 @@ jobs:
 
       - name: Fetch GitHub profile, repositories, and contributions
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PROFILE_TOKEN }}
         run: node scripts/fetch.mjs
 
       - name: Commit and push updated JSON files
