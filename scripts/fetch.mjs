@@ -17,11 +17,35 @@ async function fetchJson(url) {
   return res.json();
 }
 
-async function fetchContributions() {
-  const query = `
+async function graphql(query, variables = {}) {
+  const res = await fetch('https://api.github.com/graphql', {
+    method: 'POST',
+    headers: {
+      ...headers,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ query, variables }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`GraphQL failed: ${res.status} ${res.statusText}`);
+  }
+
+  const json = await res.json();
+  if (json.errors) {
+    throw new Error(`GraphQL errors: ${JSON.stringify(json.errors)}`);
+  }
+
+  return json.data;
+}
+
+async function fetchAllContributions() {
+  // 1. Fetch active contribution years and the default rolling last 365 days
+  const overviewQuery = `
     query($login: String!) {
       user(login: $login) {
         contributionsCollection {
+          contributionYears
           contributionCalendar {
             totalContributions
             weeks {
@@ -37,25 +61,40 @@ async function fetchContributions() {
     }
   `;
 
-  const res = await fetch('https://api.github.com/graphql', {
-    method: 'POST',
-    headers: {
-      ...headers,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ query, variables: { login: USERNAME } }),
-  });
+  const overviewData = await graphql(overviewQuery, { login: USERNAME });
+  const collection = overviewData.user.contributionsCollection;
+  const years = collection.contributionYears;
+  const lastYear = collection.contributionCalendar;
 
-  if (!res.ok) {
-    throw new Error(`GraphQL failed: ${res.status} ${res.statusText}`);
+  // 2. Fetch the calendar for each individual year
+  const yearQuery = `
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+          contributionCalendar {
+            totalContributions
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+                contributionLevel
+              }
+            }
+          }
+        }
+      }
+    }
+  `;
+
+  const byYear = {};
+  for (const year of years) {
+    const from = `${year}-01-01T00:00:00Z`;
+    const to = `${year}-12-31T23:59:59Z`;
+    const yearData = await graphql(yearQuery, { login: USERNAME, from, to });
+    byYear[year] = yearData.user.contributionsCollection.contributionCalendar;
   }
 
-  const json = await res.json();
-  if (json.errors) {
-    throw new Error(`GraphQL errors: ${JSON.stringify(json.errors)}`);
-  }
-
-  return json.data.user.contributionsCollection.contributionCalendar;
+  return { years, lastYear, byYear };
 }
 
 async function run() {
@@ -119,22 +158,25 @@ async function run() {
 
   await fs.writeFile('data.json', JSON.stringify(payload, null, 2));
 
-  // 4. Fetch and save separate contributions.json
-  const calendar = await fetchContributions();
+  // 4. Fetch and save multi year contributions.json
+  const { years, lastYear, byYear } = await fetchAllContributions();
   await fs.writeFile(
     'contributions.json',
     JSON.stringify(
       {
         generated_at: new Date().toISOString(),
-        totalContributions: calendar.totalContributions,
-        weeks: calendar.weeks,
+        years,
+        lastYear,
+        byYear,
       },
       null,
       2
     )
   );
 
-  console.log(`Saved ${repos.length} repos and ${calendar.totalContributions} contributions`);
+  console.log(
+    `Saved ${repos.length} repos and ${lastYear.totalContributions} rolling contributions across ${years.length} years`
+  );
 }
 
 run().catch((err) => {
