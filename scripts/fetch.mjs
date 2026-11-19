@@ -17,11 +17,52 @@ async function fetchJson(url) {
   return res.json();
 }
 
+async function fetchContributions() {
+  const query = `
+    query($login: String!) {
+      user(login: $login) {
+        contributionsCollection {
+          contributionCalendar {
+            totalContributions
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+                contributionLevel
+              }
+            }
+          }
+        }
+      }
+    }
+  `;
+
+  const res = await fetch('https://api.github.com/graphql', {
+    method: 'POST',
+    headers: {
+      ...headers,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ query, variables: { login: USERNAME } }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`GraphQL failed: ${res.status} ${res.statusText}`);
+  }
+
+  const json = await res.json();
+  if (json.errors) {
+    throw new Error(`GraphQL errors: ${JSON.stringify(json.errors)}`);
+  }
+
+  return json.data.user.contributionsCollection.contributionCalendar;
+}
+
 async function run() {
   // 1. Fetch top card profile metrics
   const user = await fetchJson(`https://api.github.com/users/${USERNAME}`);
 
-  // 2. Fetch all public repositories (up to 100, sorted by most recently pushed)
+  // 2. Fetch all public repositories
   const rawRepos = await fetchJson(
     `https://api.github.com/users/${USERNAME}/repos?type=public&sort=pushed&per_page=100`
   );
@@ -42,7 +83,6 @@ async function run() {
           }));
         }
       } catch {
-        // Empty repositories return 204/404 for contributors; default to empty array
         contributors = [];
       }
 
@@ -78,7 +118,23 @@ async function run() {
   };
 
   await fs.writeFile('data.json', JSON.stringify(payload, null, 2));
-  console.log(`Saved ${repos.length} repositories to data.json`);
+
+  // 4. Fetch and save separate contributions.json
+  const calendar = await fetchContributions();
+  await fs.writeFile(
+    'contributions.json',
+    JSON.stringify(
+      {
+        generated_at: new Date().toISOString(),
+        totalContributions: calendar.totalContributions,
+        weeks: calendar.weeks,
+      },
+      null,
+      2
+    )
+  );
+
+  console.log(`Saved ${repos.length} repos and ${calendar.totalContributions} contributions`);
 }
 
 run().catch((err) => {
