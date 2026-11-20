@@ -1,15 +1,80 @@
 {
-  "generated_at": "2026-11-20T09:23:44.947Z",
+  "generated_at": "2026-11-20T18:07:19.070Z",
   "profile": {
     "name": "Ocean Mallik",
     "login": "oceanmallik",
     "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
     "html_url": "https://github.com/oceanmallik",
-    "public_repos": 26,
+    "public_repos": 27,
     "followers": 7,
     "following": 12
   },
   "repos": [
+    {
+      "id": 1465568387,
+      "name": "CRUDoperation-C",
+      "description": "CRUD operation with c programming, with txt and with binary files. ",
+      "language": "C",
+      "fork": false,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2026-11-20T17:56:08Z",
+      "updated_at": "2026-11-20T17:58:03Z",
+      "html_url": "https://github.com/oceanmallik/CRUDoperation-C",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1102440028,
+      "name": "myWebsite",
+      "description": "A Portfolio Website",
+      "language": "CSS",
+      "fork": false,
+      "stargazers_count": 5,
+      "forks_count": 0,
+      "pushed_at": "2026-11-20T11:27:00Z",
+      "updated_at": "2026-11-19T13:49:07Z",
+      "html_url": "https://github.com/oceanmallik/myWebsite",
+      "homepage": "https://www.oceanmallik.com/",
+      "contributors": [
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
+    {
+      "id": 1462668238,
+      "name": "github-data-cache",
+      "description": "A simple github data cache workflow that gets my github repo data every hour. Bypasses github api limit. ",
+      "language": "JavaScript",
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-11-20T09:23:50Z",
+      "updated_at": "2026-11-18T12:54:16Z",
+      "html_url": "https://github.com/oceanmallik/github-data-cache",
+      "homepage": null,
+      "contributors": [
+        {
+          "username": "github-actions[bot]",
+          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "profile_url": "https://github.com/apps/github-actions"
+        },
+        {
+          "username": "oceanmallik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
+          "profile_url": "https://github.com/oceanmallik"
+        }
+      ]
+    },
     {
       "id": 1186228312,
       "name": "oceanmallik",
@@ -37,51 +102,6 @@
           "username": "rivermallik",
           "avatar_url": "https://avatars.githubusercontent.com/u/269083221?v=4",
           "profile_url": "https://github.com/rivermallik"
-        }
-      ]
-    },
-    {
-      "id": 1462668238,
-      "name": "github-data-cache",
-      "description": "A simple github data cache workflow that gets my github repo data every hour. Bypasses github api limit. ",
-      "language": "JavaScript",
-      "fork": false,
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "pushed_at": "2026-11-20T01:30:11Z",
-      "updated_at": "2026-11-18T12:54:16Z",
-      "html_url": "https://github.com/oceanmallik/github-data-cache",
-      "homepage": null,
-      "contributors": [
-        {
-          "username": "github-actions[bot]",
-          "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-          "profile_url": "https://github.com/apps/github-actions"
-        },
-        {
-          "username": "oceanmallik",
-          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
-          "profile_url": "https://github.com/oceanmallik"
-        }
-      ]
-    },
-    {
-      "id": 1102440028,
-      "name": "myWebsite",
-      "description": "A Portfolio Website",
-      "language": "CSS",
-      "fork": false,
-      "stargazers_count": 5,
-      "forks_count": 0,
-      "pushed_at": "2026-11-19T19:29:24Z",
-      "updated_at": "2026-11-19T13:49:07Z",
-      "html_url": "https://github.com/oceanmallik/myWebsite",
-      "homepage": "https://www.oceanmallik.com/",
-      "contributors": [
-        {
-          "username": "oceanmallik",
-          "avatar_url": "https://avatars.githubusercontent.com/u/159070483?v=4",
-          "profile_url": "https://github.com/oceanmallik"
         }
       ]
     },
